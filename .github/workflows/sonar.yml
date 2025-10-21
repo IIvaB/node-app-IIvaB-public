@@ -27,5 +27,5 @@ jobs:
         uses: SonarSource/sonarcloud-github-action@v2
         with:
           args: >
-            -Dsonar.projectKey=YourGithubUserName_your-repo-name
-            -Dsonar.organization=YourSonarOrganizationName
+            -Dsonar.projectKey=IIvaB_node-app-IIvaB-public
+            -Dsonar.organization=IIvaB

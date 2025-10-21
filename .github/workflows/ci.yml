@@ -24,11 +24,3 @@ jobs:
 
       - name: Run syntax check
         run: node -c index.js
-
-      - name: Commit and push changes
-        run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "actions@github.com"
-          git add .
-          git commit -m "CI: auto update after build" || echo "No changes to commit"
-          git push

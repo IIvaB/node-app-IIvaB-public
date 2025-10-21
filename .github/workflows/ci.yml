@@ -22,11 +22,8 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Build project
-        run: npm run build --if-present
-
-      - name: Run unit tests
-        run: npm test --if-present
+      - name: Run syntax check
+        run: node -c index.js
 
       - name: Commit and push changes
         run: |

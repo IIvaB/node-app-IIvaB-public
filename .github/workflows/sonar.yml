@@ -28,4 +28,4 @@ jobs:
         with:
           args: >
             -Dsonar.projectKey=IIvaB_node-app-IIvaB-public
-            -Dsonar.organization=IIvaB
+            -Dsonar.organization=iivab
